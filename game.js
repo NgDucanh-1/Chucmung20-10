@@ -52,7 +52,7 @@ const OBSTACLE_CONFIGS = [
 
 // Load ảnh nhân vật
 const playerImg = new Image();
-playerImg.src = 'nhan_vat.png';
+playerImg.src = 'nhan_vat.PNG';
 let isPlayerImgLoaded = false;
 playerImg.onload = () => {
     isPlayerImgLoaded = true;
